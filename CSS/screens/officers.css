@@ -1,4 +1,48 @@
 .officers {
-  text-align: right;
+  text-align: center;
   font-size: 3rem;
+}
+
+.main-word {
+  margin-top: 10vh;
+}
+
+.main-words {
+  padding: 5px 0px;
+}
+
+.officers-members {
+  margin-top: 13.5vh;
+  margin-left: 14vw;
+  margin-right: 14vw;
+  margin-bottom: 13.5vh;
+  height: 80vh;
+}
+
+.member-img-profile {
+  text-align: center;
+  width: 25%;
+  margin-bottom: 7vh;
+  overflow: hidden;
+  float: left;
+}
+
+.member-img {
+  display: block;
+  margin-bottom: 3vh;
+  padding-right: 30px;
+  width: 100%;
+}
+
+.profile-img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.member-name {
+  font-size: 2.11vw;
+  line-height: 1.5;
+  padding-right: 60px;
+  letter-spacing: normal;
+  color: #000000;
 }

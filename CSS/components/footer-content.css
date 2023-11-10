@@ -3,21 +3,24 @@ body {
 }
 
 .footer {
+  width: 100vw;
   object-fit: contain;
   background-color: black;
   color: white;
 }
 
-.wrapper {
-  display: grid;
-  grid-template-columns: 200px 1fr;
+.footer-content {
+  padding-top: 3.6vh;
+  margin-bottom: 31px;
+  display: table;
+  width: 100%;
+  text-align: center;
+  position: inherit;
 }
 
-.footer-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 45px;
+.insta,
+.youtube {
+  margin: 0rem 5rem;
 }
 
 .comments,
