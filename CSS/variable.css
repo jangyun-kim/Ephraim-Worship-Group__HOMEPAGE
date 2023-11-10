@@ -1,0 +1,22 @@
+:root {
+  --hbg: rgba(0, 0, 0, 0.1);
+  --grey: rgba(0, 0, 0, 0.3);
+  --trn: all 0.2s ease-in-out;
+
+  --nav--width: 160px;
+
+  /* Colores */
+  --first-color: darkgrey;
+  --bg-color: none;
+  --sub-color: grey;
+  --font-color: ivory;
+
+  /* Fuente y tipografia */
+  --body-font: "Poppins", sans-serif;
+  --normal-font-size: 5rem;
+  --small-font-size: 3rem;
+  --smallest-font-size: 2rem;
+
+  /* z index */
+  --z-fixed: 100;
+}

@@ -1,0 +1,40 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-size: 10px;
+}
+
+.header-text {
+  display: block;
+  padding: 35vh 0vh 35vh 20vh;
+  text-align: center;
+  margin-bottom: 7.25rem;
+}
+
+.mainText {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainText-content {
+  padding-bottom: 7.75h;
+}
+
+.mainText-first,
+.mainText-second {
+  text-align: left;
+  font-size: 8rem;
+  color: var(--font-color);
+  padding-left: 100px;
+}
+
+.mainText-second {
+  font-weight: bold;
+}
