@@ -4,8 +4,10 @@
 @import "screens/html.css";
 @import "screens/css.css";
 @import "screens/javascript.css";
+@import "screens/officers.css";
 @import "components/menu-bar.css";
 @import "components/main-text.css";
+@import "components/main-content.css";
 @import "components/footer-content.css";
 
 body {
