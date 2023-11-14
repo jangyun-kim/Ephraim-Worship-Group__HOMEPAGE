@@ -34,8 +34,12 @@ a {
   background-color: none;
   color: var(--font-color);
   padding: 1.5rem 1.5rem 2rem;
-  transition: 0.5s;
+  transition: background-color 0.5s ease; /* Add transition for smooth color change */
   z-index: var(--z-fixed);
+}
+
+.nav-open .l-navbar {
+  background-color: #555; /* Set the background color when the nav is open */
 }
 
 /* NAV */
@@ -136,6 +140,11 @@ a {
 .rotate {
   transform: rotate(180deg);
   transition: 0.5s;
+}
+
+.fa-bars {
+  color: white;
+  background-color: black;
 }
 
 #check-btn {
