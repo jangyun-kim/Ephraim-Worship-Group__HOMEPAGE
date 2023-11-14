@@ -1,7 +1,7 @@
 @import "reset.css";
 @import "variable.css";
 @import "screens/index.css";
-@import "screens/html.css";
+@import "screens/worship.css";
 @import "screens/css.css";
 @import "screens/javascript.css";
 @import "screens/officers.css";
@@ -55,6 +55,26 @@ h2 {
   background-repeat: no-repeat;
   background-position: center center;
   background-image: url("../img/에브라임\ main\ 단체사진.jpg");
+}
+
+.main-btn {
+  margin-top: 15px;
+  margin-right: 200px;
+  text-align: center;
+}
+
+.officers,
+.worship {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.main-word {
+  margin-top: 10vh;
+}
+
+.main-words {
+  padding: 5px 0px;
 }
 
 .web-title,

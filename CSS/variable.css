@@ -6,9 +6,9 @@
   --nav--width: 160px;
 
   /* Colores */
-  --first-color: darkgrey;
-  --bg-color: none;
-  --sub-color: grey;
+  --first-color: dimgrey;
+  --bg-color: rgb(169, 169, 169, 0.6);
+  --sub-color: darkgrey;
   --font-color: ivory;
 
   /* Fuente y tipografia */

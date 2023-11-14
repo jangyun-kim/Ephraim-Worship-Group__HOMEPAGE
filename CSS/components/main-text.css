@@ -13,7 +13,7 @@ html {
 
 .header-text {
   display: block;
-  padding: 35vh 0vw;
+  padding-left: 10vw;
   text-align: center;
   margin-bottom: 3rem;
 }
@@ -21,9 +21,6 @@ html {
 .mainText {
   display: flex;
   flex-direction: column;
-}
-
-.mainText-content {
   padding-bottom: 5.5vh;
 }
 

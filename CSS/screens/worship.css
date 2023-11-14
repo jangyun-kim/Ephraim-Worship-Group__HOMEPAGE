@@ -1,0 +1,34 @@
+.main-sub {
+  margin-top: 13.5vh;
+  margin-left: 17vw;
+  margin-right: 17vw;
+  margin-bottom: 18vh;
+}
+
+.worship-words1,
+.worship-words2,
+.worship-words3,
+.worship-words4 {
+  padding: 5px 0px;
+}
+
+.worship-main-sub {
+  margin-top: 13.5vh;
+}
+
+.worship-content-detail {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10vh;
+}
+
+.main-font {
+  margin-left: 4vw;
+  font-size: 4.4rem;
+}
+
+.main-font-detail {
+  font-size: 3rem;
+  margin-left: 4vw;
+  margin-top: 3vh;
+}
