@@ -5,21 +5,21 @@
   margin-bottom: 18vh;
 }
 
-.practice-words1,
-.practice-words2 {
+.praying-words1,
+.praying-words2 {
   padding: 5px 0px;
 }
 
-.practice-main-sub {
+.praying-main-sub {
   margin-top: 13.5vh;
 }
 
-.practice-content-detail {
+.praying-content-detail {
   display: flex;
   flex-wrap: wrap;
   margin-top: 10vh;
 }
 
-.pratice-detail {
+.praying-detail {
   width: 100%;
 }
