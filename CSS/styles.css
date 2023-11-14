@@ -2,7 +2,7 @@
 @import "variable.css";
 @import "screens/index.css";
 @import "screens/worship.css";
-@import "screens/css.css";
+@import "screens/practice.css";
 @import "screens/javascript.css";
 @import "screens/officers.css";
 @import "components/menu-bar.css";
@@ -75,6 +75,17 @@ h2 {
 
 .main-words {
   padding: 5px 0px;
+}
+
+.main-font {
+  margin-left: 4vw;
+  font-size: 4.4rem;
+}
+
+.main-font-detail {
+  font-size: 3rem;
+  margin-left: 4vw;
+  margin-top: 3vh;
 }
 
 .web-title,

@@ -3,26 +3,25 @@
   margin-left: 17vw;
   margin-right: 17vw;
   margin-bottom: 18vh;
-  width: 100vw;
 }
 
-.worship-words1,
-.worship-words2,
-.worship-words3,
-.worship-words4 {
+.practice-words1,
+.practice-words2,
+.practice-words3,
+.practice-words4 {
   padding: 5px 0px;
 }
 
-.worship-main-sub {
+.practice-main-sub {
   margin-top: 13.5vh;
 }
 
-.worship-content-detail {
+.practice-content-detail {
   display: flex;
   flex-wrap: wrap;
   margin-top: 10vh;
 }
 
-.line-height {
-  line-height: 175%;
+.pratice-detail {
+  width: 100%;
 }
