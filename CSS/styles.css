@@ -6,6 +6,8 @@
 @import "screens/praying.css";
 @import "screens/officers.css";
 @import "screens/sessions.css";
+@import "screens/singers.css";
+@import "screens/broadcasting.css";
 @import "components/menu-bar.css";
 @import "components/main-text.css";
 @import "components/main-content.css";
@@ -48,10 +50,6 @@ h2 {
 
 .kv {
   width: 100%;
-}
-
-.main {
-  min-height: 100%;
 }
 
 .mainImage {
