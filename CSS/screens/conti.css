@@ -1,0 +1,10 @@
+.conti-content-detail {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10vh;
+}
+
+.conti-main-sub {
+  display: flex;
+  flex-wrap: wrap;
+}

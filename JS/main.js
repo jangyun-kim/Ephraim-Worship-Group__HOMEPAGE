@@ -24,15 +24,14 @@ function colorLink() {
 linkColor.forEach((l) => l.addEventListener("click", colorLink));
 
 /* COLLAPSE MENU */
-const linkCollapse = document.getElementsByClassName("collapse__link");
-var i;
+const linkCollapse = document.querySelectorAll(".nav__link");
 
-for (i = 0; i < linkCollapse.length; i++) {
-  linkCollapse[i].addEventListener("click", function () {
-    const collapseMenu = this.nextElementSibling;
+linkCollapse.forEach(function (link) {
+  link.addEventListener("click", function () {
+    const collapseMenu = this.querySelector(".collapse__menu");
     collapseMenu.classList.toggle("showCollapse");
 
-    const rotate = collapseMenu.previousElementSibling;
+    const rotate = this.querySelector(".collapse__link");
     rotate.classList.toggle("rotate");
   });
-}
+});

@@ -1,14 +1,8 @@
-.singers {
-  text-align: center;
-  font-size: 3rem;
-}
-
 .singers-members {
   margin-top: 13.5vh;
   margin-left: 14vw;
   margin-right: 14vw;
-  margin-bottom: 13.5vh;
-  height: 80vh;
+  margin-bottom: 18vh;
 }
 
 .member-img-profile {

@@ -8,6 +8,7 @@
 @import "screens/sessions.css";
 @import "screens/singers.css";
 @import "screens/broadcasting.css";
+@import "screens/conti.css";
 @import "components/menu-bar.css";
 @import "components/main-text.css";
 @import "components/main-content.css";
@@ -69,28 +70,13 @@ h2 {
 .officers,
 .worship,
 .practice,
-.praying {
+.praying,
+.broadcasting,
+.sessions,
+.singers,
+.conti {
   text-align: center;
   font-size: 3rem;
-}
-
-.main-word {
-  margin-top: 10vh;
-}
-
-.main-words {
-  padding: 5px 0px;
-}
-
-.main-font {
-  margin-left: 4vw;
-  font-size: 4.4rem;
-}
-
-.main-font-detail {
-  font-size: 3rem;
-  margin-left: 4vw;
-  margin-top: 3vh;
 }
 
 .web-title,
@@ -110,4 +96,10 @@ h2 {
 
 .icon {
   color: white;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10vh;
 }

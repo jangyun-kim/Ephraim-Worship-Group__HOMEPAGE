@@ -131,3 +131,22 @@ table {
 a {
   color: black;
 }
+
+.main-word {
+  margin-top: 10vh;
+}
+
+.main-words {
+  padding: 5px 0px;
+}
+
+.main-font {
+  margin-left: 4vw;
+  font-size: 4.4rem;
+}
+
+.main-font-detail {
+  font-size: 3rem;
+  margin-left: 4vw;
+  margin-top: 3vh;
+}
